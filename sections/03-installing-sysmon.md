@@ -86,6 +86,8 @@ This cleanly removes the service and driver.
 - A working Sysmon installation
 - A tuned configuration file
 - A live event stream ready for hunting
+
+**Next:** [03 - cutting-noise](./04-cutting-noise.md)
 - The foundation for all detection and investigation work in later sections
 
 The next section focuses on reducing noise and tuning Sysmon for real‑world SOC environments.
