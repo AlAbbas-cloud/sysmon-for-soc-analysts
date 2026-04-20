@@ -1,4 +1,4 @@
-# 05 — Hunting Metasploit
+# 05 - Hunting Metasploit
 
 Metasploit is one of the most widely used offensive frameworks for gaining initial access, establishing reverse shells, and interacting with compromised systems.  
 From a defender’s perspective, Metasploit activity leaves behind a series of behavioural indicators that Sysmon captures extremely well.
