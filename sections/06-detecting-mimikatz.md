@@ -1,4 +1,4 @@
-# 06 — Detecting Mimikatz
+# 06 - Detecting Mimikatz
 
 Mimikatz is one of the most widely used tools for credential theft on Windows systems.  
 Attackers use it to extract passwords, hashes, Kerberos tickets, and other sensitive authentication material directly from memory.
