@@ -91,4 +91,4 @@ This cleanly removes the service and driver.
 The next section focuses on reducing noise and tuning Sysmon for real‑world SOC environments.
 
 ---
-**Next:** [03 - Cutting out the Noise](./04-cutting-noise.md)
+**Next:** [03 — Cutting out the Noise](./04-cutting-noise.md)
