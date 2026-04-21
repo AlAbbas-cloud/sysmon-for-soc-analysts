@@ -56,10 +56,10 @@ Below is a deeper explanation of how each Sysmon event aligns with attacker beha
 
 ## **Event ID 1 - Process Create**
 **MITRE Techniques:**
-- T1059 — Command Execution  
-- T1204 — User Execution  
-- T1106 — Native API  
-- T1218 — Signed Binary Proxy Execution (LOLBINs)
+- T1059 - Command Execution  
+- T1204 - User Execution  
+- T1106 - Native API  
+- T1218 - Signed Binary Proxy Execution (LOLBINs)
 
 **Why it matters:**  
 Nearly every attack begins with process execution. This event is foundational for detection.
