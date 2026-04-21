@@ -132,7 +132,7 @@ Massive credit to their platform for enabling practical, accessible cybersecurit
 
 ## Automation Scripts
 
-The `/powershell` folder contains SOC‑grade hunting tools:
+The [/powershell](/powershell) folder contains SOC‑grade hunting tools:
 
 - `hunt-process.ps1` — LOLBINs, suspicious parents, encoded commands  
 - `hunt-network.ps1` — beaconing, DDNS, tunneling  
