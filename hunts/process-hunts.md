@@ -10,7 +10,7 @@ Each hunt includes:
 
 ---
 
-# 🔥 1. Hunt: Suspicious Process Creation (Event ID 1)
+# 1. Hunt: Suspicious Process Creation (Event ID 1)
 
 ## What to Look For
 Processes that are unusual, unexpected, or known to be abused by attackers.
@@ -37,7 +37,7 @@ This is the highest‑value event for initial triage.
 
 ---
 
-# 🔥 2. Hunt: PowerShell Abuse
+# 2. Hunt: PowerShell Abuse
 
 ## What to Look For
 PowerShell used for:
@@ -64,7 +64,7 @@ PowerShell is one of the most abused LOLBINs in Windows environments.
 
 ---
 
-# 🔥 3. Hunt: Process Injection Attempts
+# 3. Hunt: Process Injection Attempts
 
 ## What to Look For
 Processes attempting to access or inject into other processes.
@@ -86,7 +86,7 @@ Process injection is a strong indicator of malware, credential theft, or evasion
 
 ---
 
-# 🔥 4. Hunt: Suspicious Parent/Child Relationships
+# 4. Hunt: Suspicious Parent/Child Relationships
 
 ## What to Look For
 Processes spawning children they normally shouldn’t.
@@ -112,7 +112,7 @@ Attackers often abuse legitimate applications to launch malicious payloads.
 
 ---
 
-# 🔥 5. Hunt: LOLBIN Abuse
+# 5. Hunt: LOLBIN Abuse
 
 ## What to Look For
 Legitimate Windows binaries used for malicious purposes.
@@ -142,7 +142,7 @@ LOLBINs allow attackers to bypass security controls and execute payloads stealth
 
 ---
 
-# 🔥 6. Hunt: Suspicious Terminated Processes
+# 6. Hunt: Suspicious Terminated Processes
 
 ## What to Look For
 Processes that terminate unexpectedly or rapidly.
@@ -159,7 +159,3 @@ Malware often kills processes to disable security tools or hide activity.
 3. Look for **Process Access** (Event ID 10) before termination.  
 4. Check for **Sysmon service tampering** (Event ID 4).  
 5. Pivot to **file deletion** (Event ID 23/26) for cleanup activity.
-
----
-
-# ✔ This file is now complete and ready for your repo.
