@@ -34,7 +34,7 @@ A malicious USB device was connected to a host, triggering suspicious activity.
 
 ---
 
-## Investigation 2 — Malicious HTML File
+## Investigation 2 - Malicious HTML File
 
 A file disguised as an HTML document executed malicious code.
 
@@ -52,7 +52,7 @@ A file disguised as an HTML document executed malicious code.
 
 ---
 
-## Investigation 3.1 — Registry‑Based Persistence
+## Investigation 3.1 - Registry‑Based Persistence
 
 Attackers established persistence via the Windows registry.
 
@@ -71,7 +71,7 @@ Attackers established persistence via the Windows registry.
 
 ---
 
-## Investigation 3.2 — Scheduled Task Persistence
+## Investigation 3.2 - Scheduled Task Persistence
 
 Attackers created a scheduled task to maintain access.
 
@@ -120,8 +120,3 @@ By completing these investigations, you have shown the ability to:
 - Apply SOC‑grade investigation workflows  
 
 This section represents the practical, hands‑on capability that SOC teams look for in analysts.
-
-
-
-**Next step:** Build the README.md to tie the entire repo together.
-
