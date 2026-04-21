@@ -12,13 +12,13 @@ Includes Sysmon configuration, event analysis, malware hunting, persistence dete
 ## Table of Contents
 
 - [Project Overview](#overview)
-- [Repository Structure](#Folder-Structure)
-- [What This Repository Demonstrates](#What-This-Repository-Demonstrates)
-- [Acknowledgment & Credit](#Acknowledgment-&-Credit)
-- [Automation Scripts](#Automation-Scripts)
-- [MITRE ATT&CK Coverage](#MITRE-ATT&CK-Coverage)
-- [Contributions](#Contributions)
-- [Contact](#Contact)
+- [Repository Structure](#folder-structure)
+- [What This Repository Demonstrates](#what-this-repository-demonstrates)
+- [Acknowledgment & Credit](#acknowledgment-&-credit)
+- [Automation Scripts](#automation-scripts)
+- [MITRE ATT&CK Coverage](#mitre-att&ck-coverage)
+- [Contributions](#contributions)
+- [Contact](#contact)
 
 # Overview
 
