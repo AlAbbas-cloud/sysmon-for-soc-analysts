@@ -1,7 +1,7 @@
 # 10 - Practical Investigations
 
 This final section of this <a href="https://tryhackme.com/room/sysmon" target="_blank" rel="noopener noreferrer">TryHackMe Sysmon Room</a>
-room brings together all Sysmon concepts learned throughout the room and applies them to real attack scenarios.  
+brings together all Sysmon concepts learned throughout the room and applies them to real attack scenarios.  
 Each investigation simulates a real SOC case, requiring you to analyze Sysmon logs, identify attacker behaviour, and reconstruct the intrusion chain.
 
 The investigations cover:
