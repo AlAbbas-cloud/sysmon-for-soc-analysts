@@ -40,7 +40,7 @@ Use this file during:
 
 ---
 
-# 🔍 Detailed LOLBIN Breakdown
+# Detailed LOLBIN Breakdown
 
 Below is a deeper SOC‑focused explanation of each LOLBIN, how attackers abuse it, and how Sysmon detects it.
 
@@ -231,8 +231,3 @@ Below is a deeper SOC‑focused explanation of each LOLBIN, how attackers abuse 
 
 **Sysmon:** 1  
 **MITRE:** T1033  
-
----
-
-# ✔ This file is now complete and ready for your repo.
-
