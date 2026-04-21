@@ -14,7 +14,7 @@
     Designed for SOC analysts performing DNS-based threat hunting.
 
 .NOTES
-    Author: Mobile (Ali Abbas)
+    Author: Ali Abbas
     Repo: sysmon-for-soc-analysts
 #>
 
