@@ -14,12 +14,11 @@ Includes Sysmon configuration, event analysis, malware hunting, persistence dete
 - [Project Overview](#overview)
 - [Repository Structure](#Folder-Structure)
 - [What This Repository Demonstrates](#What-This-Repository-Demonstrates)
-- [Script Flow Diagram](#script-flow-diagram-mermaid)
-- [Sample Output](#sample-output)
-- [Debugging Documentation](#debugging-documentation)
-- [Documentation](#documentation)
-- [Status](#status)
-- [Author](#author)
+- [Acknowledgment & Credit](#Acknowledgment-&-Credit)
+- [Automation Scripts](#Automation-Scripts)
+- [MITRE ATT&CK Coverage](#MITRE-ATT&CK-Coverage)
+- [Contributions](#Contributions)
+- [Contact](#Contact)
 
 # Overview
 
