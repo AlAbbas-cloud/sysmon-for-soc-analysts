@@ -40,7 +40,7 @@ powershell.exe -nop -w hidden -enc <Base64>
 
 ---
 
-### **Event ID 7 — Image Loaded**
+### **Event ID 7 - Image Loaded**
 Reveals:
 - Unusual DLLs loaded into trusted processes  
 - Reflective DLL injection  
@@ -50,7 +50,7 @@ If a process like `explorer.exe` loads uncommon DLLs, it’s suspicious.
 
 ---
 
-### **Event ID 8 — CreateRemoteThread**
+### **Event ID 8 - CreateRemoteThread**
 A strong indicator of:
 - Process injection  
 - Malware hiding inside legitimate processes  
@@ -63,7 +63,7 @@ malware.exe → injects into explorer.exe
 
 ---
 
-### **Event ID 10 — Process Access**
+### **Event ID 10 - Process Access**
 Critical for detecting:
 - Credential theft attempts  
 - Token manipulation  
@@ -74,7 +74,7 @@ Attackers often try to access LSASS without triggering obvious alerts.
 
 ---
 
-### **Event ID 11 — File Create**
+### **Event ID 11 - File Create**
 Useful for spotting:
 - Dropped payloads disguised as system files  
 - Files written to obscure directories  
@@ -87,7 +87,7 @@ Attackers may attempt to hide payloads in:
 
 ---
 
-### **Event ID 22 — DNS Query**
+### **Event ID 22 - DNS Query**
 Evasion often involves:
 - Domain‑generated algorithms (DGA)  
 - Fast‑flux infrastructure  
