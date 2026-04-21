@@ -9,6 +9,17 @@ A complete Sysmon detection and hunting repository demonstrating practical SOC s
 Includes Sysmon configuration, event analysis, malware hunting, persistence detection, evasion techniques, diagrams, and full automation scripts.
 
 ---
+## Table of Contents
+
+- [Project Overview](#overview)
+- [Repository Structure](#Folder-Structure)
+- [What This Repository Demonstrates](#What-This-Repository-Demonstrates)
+- [Script Flow Diagram](#script-flow-diagram-mermaid)
+- [Sample Output](#sample-output)
+- [Debugging Documentation](#debugging-documentation)
+- [Documentation](#documentation)
+- [Status](#status)
+- [Author](#author)
 
 # Overview
 
@@ -159,7 +170,7 @@ This repo covers techniques across:
 - Lateral Movement  
 - Command & Control  
 
-See `/reference/mitre-mapping.md` for full mapping.
+See [/reference/mitre-mapping.md](/reference/mitre-mapping.md) for full mapping.
 
 ---
 
@@ -175,7 +186,7 @@ See `/reference/mitre-mapping.md` for full mapping.
 
 ## Contributions
 
-Pull requests are welcome — especially improvements to:
+Pull requests are welcome - especially improvements to:
 - Detection logic  
 - PowerShell scripts  
 - Diagrams  
