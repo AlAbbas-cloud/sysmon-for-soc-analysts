@@ -1,3 +1,9 @@
+███████╗██╗   ██╗███████╗███╗   ███╗ ██████╗ ███╗   ██╗
+██╔════╝██║   ██║██╔════╝████╗ ████║██╔═══██╗████╗  ██║
+███████╗██║   ██║█████╗  ██╔████╔██║██║   ██║██╔██╗ ██║
+╚════██║██║   ██║██╔══╝  ██║╚██╔╝██║██║   ██║██║╚██╗██║
+███████║╚██████╔╝███████╗██║ ╚═╝ ██║╚██████╔╝██║ ╚████║
+╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 # Sysmon for SOC Analysts  
 A complete Sysmon detection and hunting repository demonstrating practical SOC skills.  
 Includes Sysmon configuration, event analysis, malware hunting, persistence detection, evasion techniques, diagrams, and full automation scripts.
