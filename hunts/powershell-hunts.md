@@ -12,7 +12,7 @@ Each hunt includes:
 
 ---
 
-# ⚡ 1. Hunt: Encoded or Obfuscated PowerShell
+# 1. Hunt: Encoded or Obfuscated PowerShell
 
 ## What to Look For
 PowerShell commands that use:
@@ -43,7 +43,7 @@ Encoded PowerShell is a strong indicator of:
 
 ---
 
-# ⚡ 2. Hunt: PowerShell Download Cradle
+# 2. Hunt: PowerShell Download Cradle
 
 ## What to Look For
 PowerShell used to download and execute content:
@@ -74,7 +74,7 @@ Download cradles are used to:
 
 ---
 
-# ⚡ 3. Hunt: PowerShell as a Child of Office or Browsers
+# 3. Hunt: PowerShell as a Child of Office or Browsers
 
 ## What to Look For
 PowerShell spawned by:
@@ -102,7 +102,7 @@ This is a classic sign of:
 
 ---
 
-# ⚡ 4. Hunt: PowerShell with AMSI / Logging Bypass
+# 4. Hunt: PowerShell with AMSI / Logging Bypass
 
 ## What to Look For
 PowerShell commands that attempt to disable or bypass:
@@ -136,7 +136,7 @@ Attackers disable logging to:
 
 ---
 
-# ⚡ 5. Hunt: PowerShell Used for Lateral Movement
+# 5. Hunt: PowerShell Used for Lateral Movement
 
 ## What to Look For
 PowerShell used with:
@@ -166,7 +166,7 @@ PowerShell Remoting is commonly used for:
 
 ---
 
-# ⚡ 6. Hunt: PowerShell Living Off the Land (LOLBIN Abuse)
+# 6. Hunt: PowerShell Living Off the Land (LOLBIN Abuse)
 
 ## What to Look For
 PowerShell used in combination with:
@@ -194,7 +194,3 @@ Attackers chain LOLBINs with PowerShell to:
 3. Pivot to **network connections** (Event ID 3).  
 4. Check for **file creation** (Event ID 11).  
 5. Investigate **registry persistence** (Event ID 13).
-
----
-
-# ✔ This file is now complete and ready for your repo.
