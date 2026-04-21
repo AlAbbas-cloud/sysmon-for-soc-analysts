@@ -68,7 +68,7 @@ Nearly every attack begins with process execution. This event is foundational fo
 
 ## **Event ID 2 - File Creation Time Changed**
 **MITRE Technique:**  
-- T1070.006 — Timestomp
+- T1070.006 - Timestamp
 
 Attackers modify timestamps to hide malware or blend into system files.
 
@@ -76,9 +76,9 @@ Attackers modify timestamps to hide malware or blend into system files.
 
 ## **Event ID 3 - Network Connection**
 **MITRE Techniques:**
-- T1071 — Command & Control  
-- T1041 — Exfiltration  
-- T1021 — Lateral Movement  
+- T1071 - Command & Control  
+- T1041 - Exfiltration  
+- T1021 - Lateral Movement  
 
 Critical for detecting beaconing, reverse shells, and C2.
 
@@ -94,22 +94,22 @@ Attackers often attempt to stop Sysmon.
 
 ## **Event ID 6 - Driver Loaded**
 **MITRE Techniques:**
-- T1547.006 — Kernel Autostart  
-- T1068 — Privilege Escalation  
+- T1547.006 - Kernel Autostart  
+- T1068 - Privilege Escalation  
 - Rootkit behaviour
 
 ---
 
 ## **Event ID 7 - Image Loaded**
 **MITRE Techniques:**
-- T1574.002 — DLL Search Order Hijacking  
-- T1055 — Process Injection  
+- T1574.002 - DLL Search Order Hijacking  
+- T1055 - Process Injection  
 
 ---
 
 ## **Event ID 8 - CreateRemoteThread**
 **MITRE Technique:**  
-- T1055.001 — Process Injection
+- T1055.001 - Process Injection
 
 One of the strongest indicators of malicious activity.
 
@@ -117,16 +117,16 @@ One of the strongest indicators of malicious activity.
 
 ## **Event ID 9 - RawAccessRead**
 **MITRE Techniques:**
-- T1003 — Credential Access  
-- T1014 — Rootkits  
+- T1003 - Credential Access  
+- T1014 - Rootkits  
 
 ---
 
 ## **Event ID 10 - Process Access**
 **MITRE Techniques:**
-- T1003.001 — LSASS Dumping  
-- T1055 — Injection  
-- T1134 — Token Manipulation  
+- T1003.001 - LSASS Dumping  
+- T1055 - Injection  
+- T1134 - Token Manipulation  
 
 This is your primary Mimikatz detection event.
 
@@ -134,59 +134,54 @@ This is your primary Mimikatz detection event.
 
 ## **Event ID 11 - File Create**
 **MITRE Techniques:**
-- T1105 — Ingress Tool Transfer  
-- T1486 — Ransomware  
-- T1204 — User Execution  
+- T1105 - Ingress Tool Transfer  
+- T1486 - Ransomware  
+- T1204 - User Execution  
 
 ---
 
 ## **Event ID 12-14 - Registry Events**
 **MITRE Techniques:**
-- T1112 — Modify Registry  
-- T1547 — Persistence (Run Keys, Services, etc.)
+- T1112 - Modify Registry  
+- T1547 - Persistence (Run Keys, Services, etc.)
 
 ---
 
 ## **Event ID 15 - FileCreateStreamHash**
 **MITRE Technique:**  
-- T1564.004 — Hide Artifacts (ADS)
+- T1564.004 - Hide Artifacts (ADS)
 
 ---
 
 ## **Event ID 16 - Sysmon Config Change**
 **MITRE Technique:**  
-- T1562.001 — Disable Security Tools
+- T1562.001 - Disable Security Tools
 
 ---
 
 ## **Event ID 17-18 - Named Pipes**
 **MITRE Techniques:**
-- T1047 — WMI  
-- T1570 — Lateral Movement  
+- T1047 - WMI  
+- T1570 - Lateral Movement  
 - Malware IPC channels
 
 ---
 
 ## **Event ID 19-21 - WMI Persistence**
 **MITRE Technique:**  
-- T1546.003 — WMI Event Subscription
+- T1546.003 - WMI Event Subscription
 
 ---
 
 ## **Event ID 22 - DNS Query**
 **MITRE Techniques:**
-- T1071.004 — DNS C2  
-- T1568 — Dynamic Resolution  
+- T1071.004 - DNS C2  
+- T1568 - Dynamic Resolution  
 
 ---
 
 ## **Event ID 23-26 - File Deletion / Tampering**
 **MITRE Techniques:**
-- T1070.004 — File Deletion  
-- T1055 — Process Injection  
-- T1036 — Masquerading  
-
----
-
-# ✔ This file is now complete and ready for your repo.
-
+- T1070.004 - File Deletion  
+- T1055 - Process Injection  
+- T1036 - Masquerading  
