@@ -1,9 +1,9 @@
 # Sysmon Event ID Reference
 
-This document provides a clear, SOC‑focused reference for all Sysmon Event IDs (1–28).  
+This document provides a clear, SOC‑focused reference for all Sysmon Event IDs (1-28).  
 Each entry includes the event name, what it detects, and why it matters for threat hunting and incident response.
 
-Sysmon is most effective when analysts understand the behavioural meaning behind each event — not just the definition.  
+Sysmon is most effective when analysts understand the behavioural meaning behind each event - not just the definition.  
 Use this file as a quick‑reference guide during investigations, hunts, and detection engineering.
 
 ---
