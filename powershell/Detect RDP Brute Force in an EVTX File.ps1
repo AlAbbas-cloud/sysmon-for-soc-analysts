@@ -1,5 +1,5 @@
 # Load failed logon events (4625) from an EVTX file
-$events = Get-WinEvent -Path ".\Security.evtx" -FilterXPath "*[System/EventID=4625]"
+$events = Get-WinEvent -Path ".\Practice-Security.evtx" -FilterXPath "*[System/EventID=4625]"
 
 $parsed = foreach ($e in $events) {
     $xml = [xml]$e.ToXml()
